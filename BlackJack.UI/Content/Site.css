@@ -1,0 +1,83 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.field {
+    margin-top: 150px;
+    width: 100%;
+    height: 70%;
+    min-height: 400px;
+    background-color: darkred;
+}
+
+.dealer{
+    position: absolute;
+    width: 100px;
+    padding: 5px;
+    top: 70px;
+    left:  47%;
+}
+.SelectAmountBots{
+    width: 100px;
+    height: 30px;
+    
+}
+
+.Score{
+    font-weight: bold;
+}
+
+.Hand{
+    font-weight: bold;
+}
+
+.href {
+    border: 1px solid black;
+}
+.href :hover{
+    background-color: dodgerblue;
+  
+}
+
+.render {
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 50%;
+    height: 50%;
+    margin:auto;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 99999;
+}
+
+.BorderInDetails{
+    border: 1px dotted black;
+}
